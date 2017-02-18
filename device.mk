@@ -102,7 +102,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.apq8084
+    Snap
 
 # Charger
 PRODUCT_PACKAGES += \
