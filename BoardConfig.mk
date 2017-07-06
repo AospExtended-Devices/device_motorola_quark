@@ -161,3 +161,6 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 # Snapdragon LLVM Compiler
 TARGET_USE_SDCLANG := true
+
+# Compile libhwui in performance mode
+HWUI_COMPILE_FOR_PERF := true
