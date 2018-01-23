@@ -20,6 +20,11 @@ camera2.portability.force_api=1
 media.stagefright.legacyencoder=true
 media.stagefright.less-secure=true
 
+# Dex2oat threads for faster app installation
+dalvik.vm.boot-dex2oat-threads=4
+dalvik.vm.dex2oat-threads=4
+dalvik.vm.image-dex2oat-threads=4
+
 # Display
 ro.qualcomm.cabl=0
 ro.opengles.version=196610
