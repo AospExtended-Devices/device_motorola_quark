@@ -150,7 +150,7 @@ void vendor_load_properties()
         // XT1254 - Droid Turbo
         property_set("ro.build.product", "quark");
         property_set("ro.product.device", "quark");
-        property_set("ro.product.model", "DROID Turbo");
+        property_set("ro.product.model", "Droid Turbo");
         property_set("ro.fsg-id", "verizon");
         property_set("ro.telephony.default_network", "10");
         property_set("telephony.lteOnCdmaDevice", "1");
@@ -170,7 +170,7 @@ void vendor_load_properties()
         // XT1254 - Droid Turbo, but set as gsm phone
         property_set("ro.build.product", "quark");
         property_set("ro.product.device", "quark");
-        property_set("ro.product.model", "DROID Turbo");
+        property_set("ro.product.model", "Droid Turbo");
         property_set("ro.fsg-id", "verizon");
         property_set("ro.telephony.default_network", "10");
         property_set("telephony.lteOnGsmDevice", "1");
@@ -185,7 +185,7 @@ void vendor_load_properties()
         // XT1250 - Moto MAXX
         property_set("ro.build.product", "quark");
         property_set("ro.product.device", "quark");
-        property_set("ro.product.model", "Moto MAXX");
+        property_set("ro.product.model", "Moto Maxx");
         property_set("ro.fsg-id", "lra");
         property_set("ro.telephony.default_network", "10");
         property_set("telephony.lteOnCdmaDevice", "1");
@@ -200,7 +200,7 @@ void vendor_load_properties()
         // XT1250 - Moto MAXX, but set as gsm phone
         property_set("ro.build.product", "quark");
         property_set("ro.product.device", "quark");
-        property_set("ro.product.model", "Moto MAXX");
+        property_set("ro.product.model", "Moto Maxx");
         property_set("ro.fsg-id", "lra");
         property_set("ro.telephony.default_network", "9");
         property_set("telephony.lteOnGsmDevice", "1");
@@ -230,7 +230,7 @@ void vendor_load_properties()
         // XT1225 - Moto MAXX (default)
         property_set("ro.build.product", "quark_umts");
         property_set("ro.product.device", "quark_umts");
-        property_set("ro.product.model", "Moto MAXX");
+        property_set("ro.product.model", "Moto Maxx");
         property_set("ro.telephony.default_network", "9");
         property_set("telephony.lteOnGsmDevice", "1");
         property_set("ro.fsg-id", "singlela");
