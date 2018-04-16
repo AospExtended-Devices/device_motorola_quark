@@ -20,6 +20,9 @@ $(call inherit-product, vendor/motorola/quark/quark-vendor.mk)
 
 LOCAL_PATH := device/motorola/quark
 
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
 # Screen density
 PRODUCT_AAPT_CONFIG := normal large xlarge hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := 560dpi
