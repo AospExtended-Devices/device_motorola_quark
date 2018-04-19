@@ -102,8 +102,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    SnapdragonCamera \
-    camera.apq8084
+    Snap
 
 # Charger
 PRODUCT_PACKAGES += \
