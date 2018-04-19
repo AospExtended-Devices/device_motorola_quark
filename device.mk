@@ -102,6 +102,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    Snap \
     camera.apq8084
 
 # Charger
